@@ -1,0 +1,17 @@
+{
+  "name": "moralis-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "node -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Athus Linhares Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "moralis": "^1.5.9",
+    "webpack": "^5.72.0"
+  }
+}
