@@ -3,8 +3,6 @@ const Moralis = require("moralis/node")
 const { serverUrl, appId , masterKey } = require("./config")
 const moment = require("moment")
 
-
-
 const getBscPrice = async () => {
     await Moralis.start({ serverUrl, appId, masterKey })
     .then(async()=>{
@@ -15,8 +13,7 @@ const getBscPrice = async () => {
         console.log("====================================")
         console.log("BSC Price: ", price)
     })
-  }
-  
+  } 
   
   // get the latest block number on BSC
   const getLatestBlockInfo = async ()=>{  
@@ -41,7 +38,7 @@ const getBscPrice = async () => {
 
   
 getBscPrice()
-getLatestBlockInfo()
+//getLatestBlockInfo()
   
   
   
