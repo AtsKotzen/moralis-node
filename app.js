@@ -23,7 +23,7 @@ const getBscPrice = async () => {
   date: date,
   };
   let block = await Moralis.Web3API.native.getDateToBlock(options);
-  latestBlockNumber = JSON.stringify(block.block)
+  const latestBlockNumber = JSON.stringify(block.block)
   console.log("====================================")
   console.log("Block: ", latestBlockNumber)  
   getBlockInfo(latestBlockNumber);
@@ -38,7 +38,7 @@ const getBscPrice = async () => {
 
   
 getBscPrice()
-//getLatestBlockInfo()
+getLatestBlockInfo()
   
   
   
