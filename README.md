@@ -1,4 +1,4 @@
-## Moralis-Node
+## Moralis-NodeJS
 Set for using BSC Testnet
 
 ### What this code do:
